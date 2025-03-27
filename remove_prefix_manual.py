@@ -14,4 +14,5 @@ else:
     # Keep the string unchanged
     result_string = input_string
 
-# Step 6: Display the result
+# Display the result
+print("Final string:", result_string)
