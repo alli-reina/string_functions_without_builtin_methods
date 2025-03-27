@@ -10,6 +10,11 @@ else:
     # Split the string into words
     words = input_string.split()
 
-# Step 4: Convert the first letter of each word to uppercase and the rest to lowercase.
+# Convert each word to title case manually
+    title_case_words = []
+    for word in words:
+        title_case_word = word[0].upper() + word[1:].lower()
+        title_case_words.append(title_case_word)
+
 # Step 5: Join the words back into a single string.
 # Step 6: Display the result.
