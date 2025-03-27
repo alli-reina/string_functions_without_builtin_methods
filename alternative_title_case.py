@@ -19,4 +19,5 @@ else:
     # Join the words back into a single string
     result = " ".join(title_case_words)
 
-# Step 6: Display the result.
+    # Display the result
+    print(result)
