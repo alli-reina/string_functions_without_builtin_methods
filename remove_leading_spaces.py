@@ -7,5 +7,8 @@ user_input = input("Enter a string: ")
 index = 0
 
 # Step 3: Loop until a non-space character is found
+while index < len(user_input) and user_input[index] == " ":
+    index += 1
+
 # Step 4: Extract the substring starting from the first non-space character
 # Step 5: Display the result
