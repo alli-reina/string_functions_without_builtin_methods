@@ -6,7 +6,13 @@ input_string = input("Enter a string: ")
 # Create an empty result string
 result = ""
  
-# Step 3: Go through each letter in the input  
-# Step 4: If the letter is uppercase, replace it with lowercase  
-# Step 5: Add it to the result  
+# Go through each letter in the input
+for letter in input_string:
+# If the letter is uppercase, replace it with lowercase
+ if "A" <= letter <= "Z":
+  letter(chr(ord(letter) +32)
+
+# Add it to the result 
+  result += letter
+
 # Step 6: Print the final result
