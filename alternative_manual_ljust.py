@@ -11,5 +11,8 @@ if len(input_string) < width:
     # Calculate how many spaces to add
     spaces_to_add = width - len(input_string)
 
-# Step 5: Append the spaces to the right of the string
-# Step 6: Print the result
+    # Append spaces to the right
+    input_string += " " * spaces_to_add  
+
+# Print the result
+print(f"'{input_string}'")
