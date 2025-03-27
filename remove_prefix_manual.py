@@ -6,7 +6,12 @@ input_string = input("Enter a string: ")
 # Ask the user to enter a prefix to remove
 prefix = input("Enter a prefix to remove: ")
 
-# Step 3: Check if the string starts with the given prefix
-# Step 4: If it does, remove the prefix by slicing
-# Step 5: If not, keep the string unchanged
+# Check if the string starts with the given prefix
+if input_string.startswith(prefix):
+    # Remove the prefix by slicing
+    result_string = input_string[len(prefix):]
+else:
+    # Keep the string unchanged
+    result_string = input_string
+
 # Step 6: Display the result
