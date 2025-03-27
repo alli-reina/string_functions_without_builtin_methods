@@ -8,5 +8,9 @@ all_upper = True
 
 for letter in input_string:
 
-# Step 3: If a letter is lowercase, print "Not all uppercase" and stop  
+# If a lowercase letter is found, set all_upper to False
+    if "a" <= letter <= "z":
+        all_upper = False
+        break
+
 # Step 4: If no lowercase letters are found, print "All uppercase"
