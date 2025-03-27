@@ -14,3 +14,6 @@ else:
 
     # Add spaces before and after
     centered_string = " " * spaces + input_string + " " * spaces  
+
+    # Print the result wrapped in single quotes
+    print("'" + centered_string + "'")
