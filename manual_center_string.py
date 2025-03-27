@@ -1,11 +1,16 @@
 # Program: Center a string manually without using center()
 
-# Get input from the user
+# Get input from the user (string and total width)
 input_string = input("Enter a string: ")
-
-# Get the total width from the user
 total_width = int(input("Enter the total width: "))
 
-# Step 3: If total width is less than the string length, print the string as is
-# Step 4: Calculate the number of spaces needed on the left and right
-# Step 5: Print the string with spaces added to center it
+# Check if total width is too small
+if total_width <= len(input_string):
+    print("'" + input_string + "'")
+
+else:
+    # Compute the number of spaces needed
+    spaces = (total_width - len(input_string)) // 2  
+
+    # Add spaces before and after
+    centered_string = " " * spaces + input_string + " " * spaces  
