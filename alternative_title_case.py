@@ -16,5 +16,7 @@ else:
         title_case_word = word[0].upper() + word[1:].lower()
         title_case_words.append(title_case_word)
 
-# Step 5: Join the words back into a single string.
+    # Join the words back into a single string
+    result = " ".join(title_case_words)
+
 # Step 6: Display the result.
