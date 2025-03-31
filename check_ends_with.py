@@ -3,7 +3,9 @@
 # Get user input as 'text'
 text = input("Enter a string: ")
   
-# Step 2: Get user input as 'start' (the text to check)  
+# Get user input as 'start' (the text to check)
+start = input("Enter the starting text to check: ")
+
 # Step 3: Set 'is_start' to True  
 # Step 4: Loop through each character in 'start':  
 #         If 'text' is shorter than 'start' or characters don't match, set 'is_start' to False and stop  
