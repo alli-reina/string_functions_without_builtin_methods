@@ -6,6 +6,9 @@ text = input("Enter a string: ")
 # Set 'is_lower' to True
 is_lower = True
 
-# Step 3: For each character in 'text':  
-# If the character is between 'A' and 'Z', set 'is_lower' to False  
+# If the character is between 'A' and 'Z', set 'is_lower' to False
+for char in text:  
+    if 'A' <= char <= 'Z':
+        is_lower = False  
+
 # Step 4: Print 'is_lower'
