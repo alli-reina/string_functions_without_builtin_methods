@@ -12,5 +12,6 @@ for char in text:
     # Otherwise, keep it unchanged
     else:  
         uppercase_text += char
-  
-# Step 4: Print the modified string
+          
+# Print the modified string
+print("Uppercase string: '" + uppercase_text + "'")
