@@ -7,3 +7,6 @@ text = input("Enter a string: ")
 while text and text[-1] == ' ':
     # Remove the last character (trailing space)  
     text = text[:-1]
+
+# Print the final string with single quotes around it  
+print("String without trailing spaces: '" + text + "'")
