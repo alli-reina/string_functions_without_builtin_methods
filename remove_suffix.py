@@ -11,3 +11,4 @@ if text.endswith(suffix):
     text = text[:len(text) - len(suffix)]
 
 # Print the modified string with single quotes
+print("String without suffix: '" + text + "'")
