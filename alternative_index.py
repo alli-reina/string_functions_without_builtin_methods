@@ -9,15 +9,18 @@ char = input("Enter character to get index: ")
 # Set 'position' to -1
 position = -1  
 
-# Set 'i' to 0 (starting index)  
-i = 0  
+# Set 'start' to 0 (starting index)  
+start = 0  
 
-# Loop while 'i' is less than the length of 'text' and 'position' is -1  
-while i < len(text) and position == -1:
+# Loop while 'start' is less than the length of 'text' and 'position' is -1  
+while start < len(text) and position == -1:
     if text[i] == char:  
         position = i  
-    i += 1
-
-#         Increase 'i' by 1  
-# Step 6: If 'position' is -1, print "No letter found"  
-#         Else, print 'position'
+    start += 1
+ 
+# If 'position' is -1, print "No letter found"  
+if position == -1:  
+    print("No letter found")  
+# Else, print 'position'  
+else:  
+    print(position)
