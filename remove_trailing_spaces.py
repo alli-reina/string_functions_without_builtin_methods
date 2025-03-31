@@ -1,12 +1,8 @@
-# Program: Remove Trailing Spaces from a String  
+# Program: Remove Trailing Spaces  
 
-# Ask the user to enter a string  
 text = input("Enter a string: ")  
 
-# Keep checking if the last character is a space  
 while text and text[-1] == ' ':
-    # Remove the last character (trailing space)  
-    text = text[:-1]
+    text = text[:-1]  
 
-# Print the final string with single quotes around it  
 print("String without trailing spaces: '" + text + "'")
