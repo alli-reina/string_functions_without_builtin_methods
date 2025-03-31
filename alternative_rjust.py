@@ -8,6 +8,9 @@ char = input("Enter character to get last index: ")
 position = -1
 
 # Step 3: Loop backwards from the last index of 'text'
+start = len(text) -1
+while start >= 0:
+
     # Step 4: If 'text[start]' equals 'char', set 'position' to 'start' and exit loop
 # Step 5: If 'position' is -1, print "No letter found"
 # Step 6: Otherwise, print 'position'
