@@ -15,3 +15,10 @@ while start >= 0:
         position = start
         break
     start -= 1
+
+# If 'position' is -1, print "No letter found"
+if position == -1:
+    print("No letter found")
+# Otherwise, print 'position'
+else:
+    print(position)
