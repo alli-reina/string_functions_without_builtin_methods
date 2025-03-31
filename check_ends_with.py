@@ -1,6 +1,8 @@
 # Program: Check if String Starts with Given Text  
 
-# Step 1: Get user input as 'text'  
+# Get user input as 'text'
+text = input("Enter a string: ")
+  
 # Step 2: Get user input as 'start' (the text to check)  
 # Step 3: Set 'is_start' to True  
 # Step 4: Loop through each character in 'start':  
