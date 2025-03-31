@@ -9,4 +9,5 @@ width = int(input("Enter total width: "))
 if len(text) < width:  
     text = ' ' * (width - len(text)) + text
     
-# Step 4: Print the right-justified 'text' with single quotes
+# Print the right-justified 'text'
+print("'" + text + "'")
