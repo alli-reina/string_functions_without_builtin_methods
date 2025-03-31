@@ -4,9 +4,11 @@
 text = input("Enter a string: ")  
 
 # Get user input as 'char' (character to find)  
-char = input("Enter character to get index: ")
+char = input("Enter character to get index: ")  
 
-# Step 3: Set 'position' to -1 (default if character is not found)  
+# Set 'position' to -1
+position = -1
+  
 # Step 4: Set 'i' to 0 (starting index)  
 # Step 5: Loop while 'i' is less than the length of 'text' and 'position' is -1  
 #         If 'text[i]' is equal to 'char', set 'position' to 'i'  
