@@ -9,6 +9,10 @@ start = input("Enter the starting text to check: ")
 # Set 'is_start' to True
 is_start = True
  
-# Step 4: Loop through each character in 'start':  
-#         If 'text' is shorter than 'start' or characters don't match, set 'is_start' to False and stop  
+# Loop through each character in 'start'
+for i in range(len(start)):  
+    if i >= len(text) or text[i] != start[i]:  
+        is_start = False  
+        break
+
 # Step 5: Print 'is_start'
