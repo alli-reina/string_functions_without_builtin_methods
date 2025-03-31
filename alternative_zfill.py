@@ -5,6 +5,8 @@ text = input("Enter a string: ")
 # Get user input as 'width' (total desired width)
 width = int(input("Enter total width: "))
 
-# Step 3: Check if the length of 'text' is less than 'width'  
-#         If true, add '0' characters at the beginning to match 'width'  
+# Check if the length of 'text' is less than 'width'  
+if len(text) < width:  
+    text = '0' * (width - len(text)) + text
+
 # Step 4: Print the zero-filled 'text' with single quotes
