@@ -8,6 +8,9 @@ char = input("Enter character to count: ")
 # Set 'count' to 0
 count = 0
   
-# Step 4: Loop through each character in 'text':  
-#         If the character matches 'char', increase 'count' by 1  
+# Loop through each character in 'text'
+for letter in text:  
+    if letter == char:  
+        count += 1 
+
 # Step 5: Print 'count'
