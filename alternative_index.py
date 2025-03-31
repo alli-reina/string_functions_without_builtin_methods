@@ -7,9 +7,11 @@ text = input("Enter a string: ")
 char = input("Enter character to get index: ")  
 
 # Set 'position' to -1
-position = -1
+position = -1  
+
+# Set 'i' to 0 (starting index)  
+i = 0
   
-# Step 4: Set 'i' to 0 (starting index)  
 # Step 5: Loop while 'i' is less than the length of 'text' and 'position' is -1  
 #         If 'text[i]' is equal to 'char', set 'position' to 'i'  
 #         Increase 'i' by 1  
