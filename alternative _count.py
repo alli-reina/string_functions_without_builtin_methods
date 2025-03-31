@@ -13,4 +13,5 @@ for letter in text:
     if letter == char:  
         count += 1 
 
-# Step 5: Print 'count'
+# Print 'count'
+print(count)
