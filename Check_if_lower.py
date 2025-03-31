@@ -11,4 +11,5 @@ for char in text:
     if 'A' <= char <= 'Z':
         is_lower = False  
 
-# Step 4: Print 'is_lower'
+# Print 'is_lower'
+print(is_lower)
